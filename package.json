@@ -1,0 +1,26 @@
+{
+  "name": "seed-gathering",
+  "version": "1.0.0",
+  "description": "Basic JS library to create a random seed and get it again later",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMaRuiz/seed-gathering.git"
+  },
+  "keywords": [
+    "seed",
+    "gather",
+    "test",
+    "unit",
+    "test"
+  ],
+  "author": "JuanMa Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanMaRuiz/seed-gathering/issues"
+  },
+  "homepage": "https://github.com/JuanMaRuiz/seed-gathering#readme"
+}
