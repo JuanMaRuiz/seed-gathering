@@ -4,7 +4,9 @@
   "description": "Basic JS library to create a random seed and get it again later",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "lint && mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
