@@ -4,7 +4,7 @@
   "description": "Basic JS library to create a random seed and get it again later",
   "main": "index.js",
   "scripts": {
-    "test": "lint && mocha",
+    "test": "mocha",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -29,6 +29,7 @@
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
     "mocha": "^7.1.2",
-    "nyc": "^15.0.1"
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.2"
   }
 }

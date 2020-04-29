@@ -1,7 +1,7 @@
 {
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 8
+        "ecmaVersion": 2018
     },
     "env": {
         "node": true,
@@ -9,7 +9,7 @@
     },
     "overrides":[
         {
-            "files": ["*.test.js"],
+            "files": ["**/*Spec.js"],
             "globals": {
                 "test": true,
                 "expect": true
